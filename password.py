@@ -18,3 +18,7 @@ usefor = lower_case + upper_case + numbers + symbols
 
 length_password = 12
 
+# password variable with .join method avec random.sample function
+
+password = "".join(random.sample(usefor, length_password))
+
