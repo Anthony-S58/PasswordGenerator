@@ -10,5 +10,11 @@ upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 numbers = "0123456789"
 symbols = "@#$%&*-_\/"
 
+#what we are using for 
 
+usefor = lower_case + upper_case + numbers + symbols
+
+# password length set to 12 to have secured password
+
+length_password = 12
 
