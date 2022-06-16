@@ -16,9 +16,11 @@ usefor = lower_case + upper_case + numbers + symbols
 
 # password length set to 12 to have secured password
 
-length_password = 12
+length_password = input("Quelle taille doit faire votre mot de passe ? ")
 
 # password variable with .join method avec random.sample function
 
-password = "".join(random.sample(usefor, length_password))
+password = "".join(random.sample(usefor, int(length_password)))
+
+print("Votre mot de passe aléatoire est :" + password)
 
